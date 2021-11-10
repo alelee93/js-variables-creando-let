@@ -1,0 +1,58 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-11-09T22:50:00.120Z",
+    "end": "2021-11-09T22:50:00.825Z",
+    "duration": 705
+  },
+  "tests": [
+    {
+      "title": "la variable cambiaDeValor existe",
+      "fullTitle": "index.js la variable cambiaDeValor existe",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: cambiaDeValor is not defined\n    at Context.<anonymous> (test/indexTest.js:3:12)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "cambiaDeValor is not defined"
+      }
+    },
+    {
+      "title": "la variable cambiaDeValor equivale a false",
+      "fullTitle": "index.js la variable cambiaDeValor equivale a false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: cambiaDeValor is not defined\n    at Context.<anonymous> (test/indexTest.js:7:12)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "cambiaDeValor is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "la variable cambiaDeValor existe",
+      "fullTitle": "index.js la variable cambiaDeValor existe",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: cambiaDeValor is not defined\n    at Context.<anonymous> (test/indexTest.js:3:12)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "cambiaDeValor is not defined"
+      }
+    },
+    {
+      "title": "la variable cambiaDeValor equivale a false",
+      "fullTitle": "index.js la variable cambiaDeValor equivale a false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: cambiaDeValor is not defined\n    at Context.<anonymous> (test/indexTest.js:7:12)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "cambiaDeValor is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
